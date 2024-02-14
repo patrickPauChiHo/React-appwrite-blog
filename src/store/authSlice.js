@@ -12,7 +12,7 @@ const authSlice = createSlice({
     //add reducers
     login: (state, action) => {
       state.status = true;
-      state.userData = action.payloiad.userData;
+      state.userData = action.payload.userData;
     },
 
     logout: (state) => {
