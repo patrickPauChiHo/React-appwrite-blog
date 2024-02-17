@@ -58,6 +58,7 @@ function Signup() {
               {...register("name", { required: true })}
               label="Full Name : "
               placeholder="Full Name"
+              name="name"
             />
             <Input
               {...register("email", {
@@ -66,12 +67,14 @@ function Signup() {
               label="Email : "
               placeholder="Email Address"
               type="email"
+              name="email"
             />
             <Input
               {...register("password", { required: true })}
               label="Password : "
               type="password"
               placeholder="Password"
+              name="password"
             />
             <Button type="submit" className="w-full">
               Create Account

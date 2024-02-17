@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "../container/Container";
+import Container from "../container/Container";
 import Logo from "../Logo.jsx";
 import { Link } from "react-router-dom";
 import LogoutBtn from "./LogoutBtn";
